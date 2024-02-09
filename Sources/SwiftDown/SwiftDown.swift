@@ -156,6 +156,7 @@
       textView.backgroundColor = theme.backgroundColor
       textView.insertionPointColor = theme.cursorColor
       textView.textColor = theme.tintColor
+      textView.textAlingment = .trailing
       return textView
     }()
 
