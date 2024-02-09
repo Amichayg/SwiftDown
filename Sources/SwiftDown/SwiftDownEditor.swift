@@ -26,7 +26,7 @@ public struct SwiftDownEditor: UIViewRepresentable {
     private(set) var autocorrectionType: UITextAutocorrectionType = .default
     private(set) var keyboardType: UIKeyboardType = .default
     private(set) var hasKeyboardToolbar: Bool = true
-    private(set) var textAlignment: TextAlignment = .leading
+    private(set) var textAlignment: TextAlignment = .trailing
 
     public var onTextChange: (String) -> Void = { _ in }
     public var onSelectionChange: (NSRange) -> Void = { _ in }
